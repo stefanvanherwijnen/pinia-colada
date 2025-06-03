@@ -1,5 +1,5 @@
 {
-  "name": "@pinia/colada",
+  "name": "@stefanvh/colada",
   "type": "module",
   "version": "0.17.0",
   "packageManager": "pnpm@10.10.0",
