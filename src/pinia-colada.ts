@@ -68,9 +68,9 @@ export const PiniaColada: Plugin<[options?: PiniaColadaOptions]> = (
     )
   }
 
-  if (typeof document !== 'undefined' && process.env.NODE_ENV === 'development') {
-    addDevtools(app, pinia)
-  }
+  // if (typeof document !== 'undefined' && process.env.NODE_ENV === 'development') {
+  //   addDevtools(app, pinia)
+  // }
 
   // install plugins
   const queryCache = useQueryCache(pinia)
